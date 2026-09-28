@@ -71,7 +71,7 @@ This project is prepared for Vercel; no account connection or deployment has bee
 1. Complete the critical items in `CONTENT_TODO.md` and review the site in your own voice.
 2. Upload this project’s source to a Git repository, excluding `node_modules`, `.next`, and `out` (already in `.gitignore`).
 3. Import the repository in Vercel. Select the folder containing this `package.json` as the root.
-4. Use the Next.js preset, `pnpm install`, build command `pnpm build`, and output directory `out`. These build/output settings are also in `vercel.json`.
+4. Use the Next.js preset, `pnpm install`, build command `pnpm build`, and output directory `.next` (Vercel handles the static export). These build/output settings are also in `vercel.json`.
 5. Deploy and test the resulting URL on your phone. Later commits trigger another build.
 
 Alternatively, with the official Vercel CLI installed and your account signed in, run `vercel` from this folder for a preview and `vercel --prod` when ready. No secrets or environment variables are required.

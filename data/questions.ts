@@ -1,0 +1,8 @@
+export const questions = [
+ {topic:'Risk & uncertainty',title:'How should investors prepare for risks they cannot predict?',context:'Working around hedge funds and risk mitigation at NJ Treasury has made this question much more concrete. I’m trying to understand what protection actually looks like before it’s needed.'},
+ {topic:'Technology & business',title:'What changes when you go from analyzing a company to working inside one?',context:'Roadmap gave me an outside view. Amazon will give me a chance to see how forecasts and investment decisions are made inside an operating business. I don’t know yet how the two will compare.'},
+ {topic:'Policy & markets',title:'How does government policy actually flow through financial markets?',context:'This is the thread that started in a congressional office. I’m interested in the steps between a policy decision, a company’s choices, and the way capital moves.'},
+ {topic:'Long-term thinking',title:'What makes a great business compound for decades?',context:'Valuation made me think about what a company might earn. I want to understand why some businesses keep finding productive ways to reinvest.'},
+ {topic:'AI & judgment',title:'How will AI change financial analysis?',context:'I’ve used AI tools for research and analysis. I’m interested in where they make the work better, and where a faster answer still needs careful human judgment.'},
+ {topic:'Portfolio construction',title:'When does diversification actually work during a crisis?',context:'I’m learning about institutional portfolios and downside protection. The behavior of a portfolio under stress seems at least as interesting as its behavior on an ordinary day.'}
+];

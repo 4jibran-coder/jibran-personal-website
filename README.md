@@ -81,3 +81,11 @@ Alternatively, with the official Vercel CLI installed and your account signed in
 Warm paper, colorful photo cards, Georgia editorial type, and a dark film tile. System fonts avoid external font requests. Photos reserve space and lazy-load below the fold. Navigation, native disclosures, native dialogs, visible focus, skip link, semantic headings, alt text, and reduced-motion support are included. Animation is limited to small image and decorative hover effects.
 
 See `PROCESS_NOTES.md` for actual decisions and checks. It is a record to help you write your own application reflection, not a reflection written on your behalf.
+
+## GitHub Pages (alongside Vercel)
+
+The public repository is `4jibran-coder/jibran-personal-website`. In GitHub, open **Settings → Pages → Build and deployment → Source → GitHub Actions**. Push to `main`, or open **Actions → Deploy GitHub Pages → Run workflow**. The workflow installs dependencies, exports the site, and publishes `out/`.
+
+The Pages URL is https://4jibran-coder.github.io/jibran-personal-website/ . The workflow alone sets `NEXT_PUBLIC_BASE_PATH=/jibran-personal-website`. Leave that variable unset on Vercel: its existing `.next` output setting remains unchanged. Next Link prefixes internal links, and `lib/asset-path.ts` prefixes public images for Pages.
+
+Skills are in `app/skills/page.tsx`; project summaries and expanded details are in `data/projects.ts`. Projects use native keyboard-accessible disclosures rather than fabricated external reports.

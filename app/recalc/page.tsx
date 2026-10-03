@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import Image from 'next/image';
+import {assetPath} from '@/lib/asset-path';
 
 export const metadata:Metadata={title:'Why Recalc'};
 const reasons=[
@@ -11,7 +12,7 @@ export default function Recalc(){return <main id="main" className="recalc-page">
  <header className="recalc-heading"><h1>Why <em>Recalc.</em></h1><p>The next community I hope to grow with—and contribute to.</p></header>
  <section className="recalc-story" aria-labelledby="community-advice">
   <div className="recalc-story-copy"><p>In my senior-year yearbook, I was asked what advice I’d give a freshman. My answer was simple:</p><h2 id="community-advice">“Find your community<br/><em>as quickly as possible.”</em></h2><p>Model UN showed me why. The right people gave me more than friendships. They raised my standards, pushed me to work harder, and helped me become a better leader.</p><p className="recalc-bridge">That’s what draws me to Recalc Accelerator.</p></div>
-  <figure className="recalc-photo"><Image src="/images/model-un.jpg" alt="Jibran’s Langley Model UN team together with their awards" width={1800} height={1200} sizes="(max-width: 800px) 100vw, 50vw" priority/><figcaption>My Model UN community at Langley.</figcaption></figure>
+  <figure className="recalc-photo"><Image src={assetPath("/images/model-un.jpg")} alt="Jibran’s Langley Model UN team together with their awards" width={1800} height={1200} sizes="(max-width: 800px) 100vw, 50vw" priority/><figcaption>My Model UN community at Langley.</figcaption></figure>
  </section>
  <section className="recalc-reasons" aria-label="What I’m looking for in Recalc Accelerator">{reasons.map(reason=><article key={reason.number} className={`recalc-reason ${reason.tone}`}><span className="recalc-number" aria-hidden="true">{reason.number}</span><h2>{reason.title}</h2><p>{reason.text}</p></article>)}</section>
  <section className="recalc-closing"><p>The best communities I’ve been part of have changed the direction of my life.</p><h2>I hope Recalc is the next one.<br/><em>And I want to help make it stronger.</em></h2></section>

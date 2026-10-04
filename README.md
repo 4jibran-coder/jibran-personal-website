@@ -88,4 +88,4 @@ The public repository is `4jibran-coder/jibran-personal-website`. In GitHub, ope
 
 The Pages URL is https://4jibran-coder.github.io/jibran-personal-website/ . The workflow alone sets `NEXT_PUBLIC_BASE_PATH=/jibran-personal-website`. Leave that variable unset on Vercel: its existing `.next` output setting remains unchanged. Next Link prefixes internal links, and `lib/asset-path.ts` prefixes public images for Pages.
 
-Skills are in `app/skills/page.tsx`; project summaries and expanded details are in `data/projects.ts`. Projects use native keyboard-accessible disclosures rather than fabricated external reports.
+The September 27 content and design have been restored, including Why Recalc. Skills and Projects have been removed.

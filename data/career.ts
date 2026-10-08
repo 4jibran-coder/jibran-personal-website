@@ -1,6 +1,6 @@
 export const career = {
-  title: 'TMT investment banking.',
-  intro: 'I want to work in technology investment banking because I want to be in a field that’s always changing. From the dot-com revolution to artificial intelligence, the tech space is constantly evolving.',
+  title: 'Exploring finance.',
+  intro: 'I’m interested in how markets work, how companies make decisions, and how financial analysis helps connect the two. I’m exploring a career in finance through different perspectives on businesses and investing.',
   next: 'Next summer, my internship at Amazon will give me a chance to understand a technology company from the inside.',
-  sectors: ['Technology', 'Media', 'Telecommunications'],
+  sectors: ['Markets', 'Companies', 'Investing'],
 };

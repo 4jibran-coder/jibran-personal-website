@@ -43,27 +43,7 @@ button.cover-portrait:focus-visible{outline:3px solid #285fb4;outline-offset:5px
 .tile-roadtrips .detail-media img{object-fit:contain}
 .tile-roadtrips .detail-media{height:clamp(300px,65vh,650px)}
 
-/* Why Recalc: a short story, three reasons, and a closing thought. */
-.recalc-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;padding:28px 0 30px}
-.recalc-heading h1{font-size:clamp(48px,6vw,82px);line-height:1.05}
-.recalc-heading>p{max-width:290px;color:var(--muted);font-size:15px}
-.recalc-story{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;border-top:1px solid var(--line);padding:32px 0}
-.recalc-story-copy>p{max-width:520px;font-size:16px;line-height:1.7}
-.recalc-story-copy h2{font-size:clamp(29px,3.1vw,44px);line-height:1.12;margin:22px 0;color:#3c3656}
-.recalc-story-copy .recalc-bridge{margin-top:16px;font-weight:600}
-.recalc-photo{margin:0;min-width:0}
-.recalc-photo img{display:block;width:100%;height:auto;border-radius:8px}
-.recalc-photo figcaption{font-size:12px;color:var(--muted);margin-top:10px}
-.recalc-reasons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.recalc-reason{padding:28px;border-radius:8px}
-.recalc-number{font:italic 22px var(--serif);opacity:.7}
-.recalc-reason h2{font-size:31px;line-height:1.13;margin:22px 0 16px;max-width:270px}
-.recalc-reason p{font-size:15px;line-height:1.7}
-.recalc-closing{text-align:center;padding:48px 15px 28px}
-.recalc-closing p{color:var(--muted);font-size:15px;margin-bottom:14px}
-.recalc-closing h2{font-size:clamp(27px,3vw,41px);line-height:1.2}
-@media(max-width:1000px){.nav nav a{padding-inline:14px}.recalc-story{gap:25px}.recalc-reason{padding:22px}.recalc-reason h2{font-size:28px}}
-@media(max-width:800px){.recalc-heading{display:block}.recalc-heading>p{margin-top:16px;max-width:100%}.recalc-story{grid-template-columns:1fr;gap:24px}.recalc-story-copy>p{max-width:100%}.recalc-reasons{grid-template-columns:1fr}.recalc-reason h2{max-width:none;margin:12px 0}.recalc-closing{padding:32px 0 20px}}
+@media(max-width:1000px){.nav nav a{padding-inline:14px}}
 @media(max-width:700px){.nav nav{gap:2px;width:100%;justify-content:space-between}.nav nav a{font-size:11px;padding:8px 9px;white-space:nowrap}}
 @media(max-width:380px){.nav nav{gap:0}.nav nav a{font-size:10px;padding-inline:7px}}
 
